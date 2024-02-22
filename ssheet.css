@@ -1,11 +1,12 @@
 /* Global Styles All of the pages affected by this....*/
 
+/* Landscaping Logo Vector Art, Icons, and Graphics for Free Download (vecteezy.com) */
 .logo {
-    float: right; /* Position the image to the right */
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-top: -75px; /* Adjust margin-top as needed */
-    margin-right: 20px; /* Add some space between the image and the right edge */
+    float: right;
+    width: 100px;
+    height: auto;
+    margin-top: -75px;
+    margin-right: 20px;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
     background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Make sure the body takes up at least the height of the viewport */
+    min-height: 100vh;
 }
 
 header {
@@ -40,6 +41,9 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    color: #ffffff;
+
+    font-weight: bold;
 }
 
 nav ul li a {
@@ -48,62 +52,16 @@ nav ul li a {
     font-weight: bold;
 }
 
-section {
-    padding: 20px;
-    margin: 20px 0;
-}
-
 footer {
     background-color: #333333;
     color: #ffffff;
     text-align: center;
     padding: 10px;
-    margin-top: auto; /* Push the footer to the bottom */
+    margin-top: auto;
 }
 
-/* Form Styles */
-form {
-    background-color: #9c2020;
-    padding: 20px;
-    border-radius: 5px;
-}
+/* /////////////////////////////////////////////HOME///////////////////////////////////////////////// */
 
-form label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-form input[type="text"],
-form input[type="email"],
-form input[type="tel"],
-form textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-}
-
-form button {
-    background-color: #007B3E;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #005a2b;
-}
-
-
-
-
-
-
-/* ////////////////////////////////////////////////////////////////////////// */
-/* Styles for 65-35 layout */
 .section-container {
     display: flex;
 }
@@ -121,7 +79,6 @@ form button:hover {
     padding: 20px;
     box-sizing: border-box;
 }
-
 
 .section3 {
     background-color: #f8f0e4;
@@ -143,20 +100,17 @@ form button:hover {
     margin-top: 20px;
 }
 
-
-/* /////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////SERVICES///////////////////////////////////////////////// */
 
 body {
-    background-color: #f8f0e4; /* Cream color background */
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
-    font-family: Arial, sans-serif; /* Add a default font */
+    background-color: #f8f0e4;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-
-
 .services-section {
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -165,58 +119,37 @@ body {
     max-width: 100%;
 }
 
-main{
-max-width: fit-content;
-margin: auto;
+main {
+    max-width: fit-content;
+    margin: auto;
 }
 
-.space{
-margin-left: 30px;
+.space {
+    margin-left: 30px;
 }
 
-
-
-
-
-
-
-
-
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-
-
-
-
-.contact-wrapper {
-    background-color: #f8f0e4; /* Cream color background */
-    padding: 0px; /* Add padding to ensure space around the content */
-    box-sizing: border-box; /* Include padding in the width calculation */
-}
+/* //////////////////////////////////////////CONTACT US/////////////////////////////////////////////////////////// */
 
 .contact-method {
     background-color: #f8f0e4;
     text-align: center;
-    margin: 0 auto; /* Center the section horizontally */
-    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 .contact-option {
-    margin-bottom: 40px; /* Add space between contact options */
+    margin-bottom: 10px;
 }
 
 .contact-image {
-    width: 100px; /* Adjust the image width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Add space below the image */
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .contact-option p {
-    margin: 10px 0; /* Add margins to top and bottom of paragraphs */
+    margin: 10px 0;
 }
-
-
-
 
 /* Adjustments for small screens */
 @media only screen and (max-width: 600px) {
